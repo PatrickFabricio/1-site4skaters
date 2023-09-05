@@ -5,20 +5,38 @@
     --fonte1: "Times news roman";
 }
 
-body {
-    text-align: center;
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
 }
 
-header {
-    margin: auto;
-    padding: 5px 50px 50px 50px;
+#teste {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: auto;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+ul {
+    align-items: center;
 }
 
 main {
-    color: black;
-    font-weight: bolder;
+    background-color: rgba(0, 255, 255, 0.274);
+}
+
+main section {
+    height: 500px;
 }
 
 footer {
-    padding: 200px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
