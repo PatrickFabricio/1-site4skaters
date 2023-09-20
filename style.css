@@ -10,33 +10,87 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    font-weight: 100;
 }
 
-#teste {
-    min-height: 5rem;
+header {
+    display: flex;
+    padding: 20px;
+}
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
-    width: auto;
-    background-color: white;
-    transition: all 0.5s;
+    padding: 20px;
 }
 
-#video {
-    padding: 20px 20px 20px 20px;
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    gap: 5rem;
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
 }
 
 main {
-    background-color: rgba(0, 255, 255, 0.274);
+    background-color: rgba(70, 70, 70, 0.274);
 }
+
+.conteudo {
+    border: 2px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+} 
+
+.conteudo > h1 {
+    padding: 30px;
+    font-size: 2em;
+}
+
+#sobre p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+div.imgprodutos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+div.imgprodutos  img {
+    padding: 20px;
+}
+
+div.imgprodutos > p {
+    max-width: 150px;
+}
+
+#categoria img {
+    padding: 20px;
+}
+
+#categoria div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+
+
+
 
 main section {
     height: 500px;
