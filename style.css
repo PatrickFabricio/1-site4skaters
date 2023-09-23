@@ -78,6 +78,14 @@ nav a {
     font-size: 2em;
 }
 
+.conteudo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: auto;
+}
+
 #sobre p {
     text-align: center;
     font-size: 1.3em;
