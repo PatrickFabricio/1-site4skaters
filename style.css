@@ -30,8 +30,9 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    align-content: center;
 
+}
 
 nav {
     background-color: black;
@@ -70,12 +71,10 @@ nav a {
 }
 
 .conteudo > h1 {
-    display: inline-block;
-    padding: 30px;
+    text-align: center;
+    padding: 15px;
     border: 2px solid orangered;
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
     font-size: 2em;
 }
 
@@ -109,16 +108,6 @@ div.imgprodutos > p {
     padding: 20px 10px;
 }
 
-main section {
-    height: 500px;
-}
-
-footer {
-    text-align: center;
-    color: white;
-    background-color: black;
-    padding: 5px 0px 5px 0px;
-}
 
 footer p {
     margin: auto;
@@ -154,6 +143,9 @@ footer > p > a:hover {
 }
 
 #sobre img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: auto;
     margin: 30px;
@@ -196,6 +188,7 @@ footer {
     color: white;
     background-color: black;
     font-size: 0.8em;
+    padding: 5px 0px 5px 0px;
 }
 
 footer li {
