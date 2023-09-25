@@ -36,18 +36,30 @@ header img {
 
 nav {
     background-color: black;
-    color: white;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
 }
 
 li {
-    padding: 20px;
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
+}
+
+main > section {
+    min-height: 800px;
 }
 
 #imagemfundo {
@@ -84,6 +96,7 @@ nav a {
     margin-right: auto;
     width: 150px;
     height: auto;
+    padding: 20px;
 }
 
 #sobre p {
@@ -114,24 +127,6 @@ div.imgprodutos > p {
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
-}
-
-
-footer p {
-    margin: auto;
-}
-
-footer > p > a {
-    color: white;
-    font-family: var(--fonte0);
-    font-size: 1em;
-    text-decoration: none;
-    transition-duration: 0.8s;
-}
-
-footer > p > a:hover {
-    font-family: var(--fonte1);
-    background-color: gray;
 }
 
 #sobre {
@@ -150,43 +145,28 @@ footer > p > a:hover {
     font-size: 1.3em;
 }
 
-#sobre img {
+#logossobre {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: auto;
-    margin: 30px;
+    flex-direction: column;
 }
 
-
-div.imgprodutos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
+footer p {
+    margin: auto;
 }
 
-div.imgprodutos  img {
-    padding: 20px;
+footer > p > a {
+    color: white;
+    font-family: var(--fonte0);
+    font-size: 1em;
+    text-decoration: none;
+    transition-duration: 0.8s;
 }
 
-div.imgprodutos > p {
-    max-width: 150px;
-}
-
-#categoria img {
-    padding: 20px;
-}
-
-#categoria div {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10px;
-}
-
-main section {
-    min-height: 500px;
+footer > p > a:hover {
+    font-family: var(--fonte1);
+    background-color: gray;
 }
 
 footer {
