@@ -103,6 +103,29 @@ main > section {
     padding: 20px;
 }
 
+#whitebox {
+    display: flex;
+    border: 5px solid white;
+    
+}
+
+#propagando {
+    border: 10px solid orangered;
+    width: 100vh;
+    height: 100vh;
+}
+
+#propagando img {
+    width: 100vh;
+    height: 100vh;
+}
+
+#video {
+    border: 10px solid orangered;
+    width: 100vh;
+    height: 100vh;
+}
+
 #sobre p {
     text-align: center;
     font-size: 1.3em;
